@@ -1,4 +1,3 @@
-# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -22,48 +21,32 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-
-# Virtual environments
 venv/
 ENV/
 env/
 .venv
-
-# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 .DS_Store
-
-# Model checkpoints and predictions
 *.pth
 *.pt
 *.pkl
 *.pckl
 *.model
-
-# CSV outputs
 *_predictions.csv
 predictions.csv
 clip_predictions.csv
 zsl_predictions.csv
-
-# Jupyter
 .ipynb_checkpoints/
 *.ipynb
-
-# Data (if tracking code only)
 data/
 dataset/
 *.zip
 *.tar.gz
-
-# Logs
 *.log
 logs/
-
-# System files
 .DS_Store
 Thumbs.db
